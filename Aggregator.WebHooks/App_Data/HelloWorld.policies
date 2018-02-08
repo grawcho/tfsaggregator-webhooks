@@ -8,7 +8,7 @@
     <!--
     <authentication username="**DOMAIN**\**user**" password="***" />
        -->
-    <authentication personalToken="${PAT}" />
+    <authentication personalToken=@Environment.GetEnvironmentVariable("PAT") />
   </runtime>
 
   <rule name="HelloWorldRule" hasFields="Title"><![CDATA[
