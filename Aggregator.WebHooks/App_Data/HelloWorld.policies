@@ -8,7 +8,7 @@
     <!--
     <authentication username="**DOMAIN**\**user**" password="***" />
        -->
-    <authentication personalToken="${APPSETTING_PAT}" />
+    <authentication personalToken="%APPSETTING_PAT%" />
   </runtime>
 
   <rule name="HelloWorldRule" hasFields="Title"><![CDATA[
